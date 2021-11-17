@@ -14,6 +14,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+
 @WebServlet(name = "MyServlet", urlPatterns = "/products")
 public class MyServlet extends HttpServlet {
 

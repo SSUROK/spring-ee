@@ -2,6 +2,7 @@ package ru.gb.service;
 
 import ru.gb.entity.Product;
 
+
 public class ProductService {
 
     public Product createNewProduct(int id){
