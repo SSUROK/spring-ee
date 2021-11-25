@@ -1,9 +1,10 @@
-package ru.gb.beans;
+package ru.gb.beans.service;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.stereotype.Component;
 import org.springframework.util.ReflectionUtils;
+import ru.gb.beans.entity.Product;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;

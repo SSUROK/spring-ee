@@ -1,4 +1,4 @@
-package ru.gb.beans;
+package ru.gb.beans.service;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
