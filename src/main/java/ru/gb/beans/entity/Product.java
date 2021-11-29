@@ -1,4 +1,4 @@
-package ru.gb.beans;
+package ru.gb.beans.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,7 +9,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 public class Product {
-    private int id;
+    private Integer id;
     private String title;
     private int cost;
 
@@ -17,4 +17,6 @@ public class Product {
     public String toString() {
         return id + " " + title + " " + cost;
     }
+
+    public Product(){}
 }
